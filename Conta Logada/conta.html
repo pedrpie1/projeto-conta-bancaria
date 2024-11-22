@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua conta</title>
+    <link rel="stylesheet" href="conta.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo à sua conta<h1 id="nome"></h1></h1>
+        <div class="inputs">
+            <p id="saldoAtualText">Seu saldo atual: $ <span id="saldo"></span></p>
+            <p class="dep">Depositar <input id="depositar" type="number"> <button id="adicionar">Adicionar</button></p> 
+            <p class="sac">Sacar <input id="sacar" type="number"> <button id="retirar">Retirar</button></p>
+            <p id="resposta"></p>
+        </div>
+
+        <div class="msg">
+            <p class="comentario">Adicionar um comentário</p>
+            <textarea name="" id="textarea"></textarea> <br>
+            <button id="btnMsg">Add</button>
+            <p id="msgTextArea"></p>
+        </div>
+
+        <div class="voltar_login">
+            <p class="abaLogin">Voltar para tela de <a href="../index.html">Login</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Criado por: Pedro, Victor, José, Gustavo e Fernando</p>
+    </footer>
+
+    <script src="conta.js"></script>
+</body>
+</html>
